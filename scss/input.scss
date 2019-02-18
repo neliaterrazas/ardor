@@ -3,23 +3,32 @@
 // }
 
 body {
-  background-color: black;
   margin: 0;
   padding: 0;
+  font-family: 'Nanum Gothic Coding', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
   background-color: white;
   img {
-    padding: 40px 0 40px 60px;
+    display: block;
+    margin: 20px auto 20px auto;
+  }
+  .classy {
+    text-align: center;
   }
 }
 
 .middle {
+  background-color: black;
   display: flex;
   justify-content: center;
-  margin: 40px 25% 40px 25%;
-  width: 50%;
+  padding: 20px 0 20px 0;
+  margin: 40px 2.5% 40px 2.5%;
+  width: 95%;
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -40,6 +49,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  .natural-wine:hover {
+    .highlight p {
+      background-color: yellow;
+      font-size: 50px;
+    }
+  }
   .natural-wine-info {
     display: none;
   }
@@ -47,6 +62,12 @@ body {
     display: block;
     p {
       width: 600px;
+    }
+  }
+  .mission-statement:hover {
+    .highlight p {
+      background-color: yellow;
+      font-size: 50px;
     }
   }
   .mission-statement-info {
@@ -58,6 +79,12 @@ body {
       width: 600px;
     }
   }
+  .wine-club:hover {
+    .highlight p {
+      background-color: yellow;
+      font-size: 50px;
+    }
+  }
   .wine-club-info {
     display: none;
   }
@@ -65,6 +92,12 @@ body {
     display: block;
     p {
       width: 600px;
+    }
+  }
+  .contact:hover {
+    .highlight p {
+      background-color: yellow;
+      font-size: 50px;
     }
   }
   .contact-info {
@@ -76,6 +109,12 @@ body {
       width: 300px;
     }
   }
+  .hours:hover {
+    .highlight p {
+      background-color: yellow;
+      font-size: 50px;
+    }
+  }
   .hours-info {
     display: none;
   }
@@ -85,6 +124,11 @@ body {
       width: 300px;
     }
   }
+}
+
+.bottom {
+  // height: 200px;
+  background-color: white;
 }
 
 @media screen and ( max-width: 1000px) {
@@ -102,6 +146,12 @@ body {
   }
   .header {
     .footer {
+      .natural-wine:hover {
+        .highlight p {
+          background-color: yellow;
+          font-size: 25px;
+        }
+      }
       .natural-wine-info {
         display: none;
       }
@@ -109,6 +159,12 @@ body {
         display: block;
         p {
           width: 300px;
+        }
+      }
+      .mission-statement:hover {
+        .highlight p {
+          background-color: yellow;
+          font-size: 25px;
         }
       }
       .mission-statement-info {
@@ -120,6 +176,12 @@ body {
           width: 300px;
         }
       }
+      .wine-club:hover {
+        .highlight p {
+          background-color: yellow;
+          font-size: 25px;
+        }
+      }
       .wine-club-info {
         display: none;
       }
@@ -129,6 +191,12 @@ body {
           width: 300px;
         }
       }
+      .contact:hover {
+        .highlight p {
+          background-color: yellow;
+          font-size: 25px;
+        }
+      }
       .contact-info {
         display: none ;
       }
@@ -136,6 +204,12 @@ body {
         display: block;
         p {
           width: 300px;
+        }
+      }
+      .hours:hover {
+        .highlight p {
+          background-color: yellow;
+          font-size: 25px;
         }
       }
       .hours-info {
