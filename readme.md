@@ -8,7 +8,11 @@
 
 _An improved version of a wine website._
 
-## Our Sketch:
+## Original Sketch:
+
+![](img/rough-sketch.jpg)
+
+## Sketch Verion:
 
 ![](img/Artboard.png)
 
