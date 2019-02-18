@@ -1,0 +1,124 @@
+// * {
+//   border: 1px solid red;
+// }
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: white;
+  img {
+    padding: 40px 0 40px 60px;
+  }
+}
+
+
+
+.middle {
+  display: flex;
+  justify-content: center;
+  margin: 40px 25% 40px 25%;
+  width: 50%;
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    .grid-item {
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}
+
+.footer {
+  padding: 40px 40px 40px 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .natural-wine-info {
+    display: none;
+  }
+  .natural-wine:hover .natural-wine-info {
+    display: block;
+    p {
+      width: 600px;
+    }
+  }
+  .mission-statement-info {
+    display: none;
+  }
+  .mission-statement:hover .mission-statement-info {
+    display: block;
+    p {
+      width: 600px;
+    }
+  }
+  .wine-club-info {
+    display: none;
+  }
+  .wine-club:hover .wine-club-info {
+    display: block;
+    p {
+      width: 600px;
+    }
+  }
+  .contact-info {
+    display: none ;
+  }
+  .contact:hover .contact-info {
+    display: block;
+    p {
+      width: 600px;
+    }
+  }
+  .hours-info {
+    display: none;
+  }
+  .hours:hover .hours-info {
+    display: block;
+    p {
+      width: 600px;
+    }
+  }
+}
+
+@media screen and ( max-width: 1000px) {
+  .middle {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto;
+      .grid-item {
+        img {
+          width: 500px;
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 650px) {
+  .header {
+    .footer {
+      display: none;
+    }
+  }
+  .middle {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto;
+      .grid-item {
+        img {
+          width: 300px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
