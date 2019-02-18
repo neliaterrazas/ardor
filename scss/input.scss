@@ -23,7 +23,7 @@ body {
 }
 
 .middle {
-  background-color: black;
+  background-color: #FFDBDA;
   display: flex;
   justify-content: center;
   padding: 20px 0 20px 0;
@@ -51,7 +51,7 @@ body {
   justify-content: space-around;
   .natural-wine:hover {
     .highlight p {
-      background-color: yellow;
+      background-color: #98ff98;
       font-size: 50px;
     }
   }

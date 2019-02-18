@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic Coding', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.header {
+  background-color: white; }
+  .header img {
+    display: block;
+    margin: 20px auto 20px auto; }
+  .header .classy {
+    text-align: center; }
+
+.middle {
+  background-color: #FFDBDA;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+  margin: 40px 2.5% 40px 2.5%;
+  width: 95%; }
+  .middle .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px; }
+    .middle .grid-container .grid-item img {
+      width: 300px;
+      height: 300px;
+      border: 3px solid white; }
+
+.footer {
+  padding: 40px 40px 40px 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .footer .natural-wine:hover .highlight p {
+    background-color: yellow;
+    font-size: 50px; }
+  .footer .natural-wine-info {
+    display: none; }
+  .footer .natural-wine:hover .natural-wine-info {
+    display: block; }
+    .footer .natural-wine:hover .natural-wine-info p {
+      width: 600px; }
+  .footer .mission-statement:hover .highlight p {
+    background-color: yellow;
+    font-size: 50px; }
+  .footer .mission-statement-info {
+    display: none; }
+  .footer .mission-statement:hover .mission-statement-info {
+    display: block; }
+    .footer .mission-statement:hover .mission-statement-info p {
+      width: 600px; }
+  .footer .wine-club:hover .highlight p {
+    background-color: yellow;
+    font-size: 50px; }
+  .footer .wine-club-info {
+    display: none; }
+  .footer .wine-club:hover .wine-club-info {
+    display: block; }
+    .footer .wine-club:hover .wine-club-info p {
+      width: 600px; }
+  .footer .contact:hover .highlight p {
+    background-color: yellow;
+    font-size: 50px; }
+  .footer .contact-info {
+    display: none; }
+  .footer .contact:hover .contact-info {
+    display: block; }
+    .footer .contact:hover .contact-info p {
+      width: 300px; }
+  .footer .hours:hover .highlight p {
+    background-color: yellow;
+    font-size: 50px; }
+  .footer .hours-info {
+    display: none; }
+  .footer .hours:hover .hours-info {
+    display: block; }
+    .footer .hours:hover .hours-info p {
+      width: 300px; }
+
+.bottom {
+  background-color: white; }
+
+@media screen and (max-width: 1000px) {
+  .middle .grid-container {
+    display: grid;
+    grid-template-columns: auto; }
+    .middle .grid-container .grid-item img {
+      width: 500px;
+      height: 500px; }
+
+  .header .footer .natural-wine:hover .highlight p {
+    background-color: yellow;
+    font-size: 25px; }
+  .header .footer .natural-wine-info {
+    display: none; }
+  .header .footer .natural-wine:hover .natural-wine-info {
+    display: block; }
+    .header .footer .natural-wine:hover .natural-wine-info p {
+      width: 300px; }
+  .header .footer .mission-statement:hover .highlight p {
+    background-color: yellow;
+    font-size: 25px; }
+  .header .footer .mission-statement-info {
+    display: none; }
+  .header .footer .mission-statement:hover .mission-statement-info {
+    display: block; }
+    .header .footer .mission-statement:hover .mission-statement-info p {
+      width: 300px; }
+  .header .footer .wine-club:hover .highlight p {
+    background-color: yellow;
+    font-size: 25px; }
+  .header .footer .wine-club-info {
+    display: none; }
+  .header .footer .wine-club:hover .wine-club-info {
+    display: block; }
+    .header .footer .wine-club:hover .wine-club-info p {
+      width: 300px; }
+  .header .footer .contact:hover .highlight p {
+    background-color: yellow;
+    font-size: 25px; }
+  .header .footer .contact-info {
+    display: none; }
+  .header .footer .contact:hover .contact-info {
+    display: block; }
+    .header .footer .contact:hover .contact-info p {
+      width: 300px; }
+  .header .footer .hours:hover .highlight p {
+    background-color: yellow;
+    font-size: 25px; }
+  .header .footer .hours-info {
+    display: none; }
+  .header .footer .hours:hover .hours-info {
+    display: block; }
+    .header .footer .hours:hover .hours-info p {
+      width: 300px; } }
+@media screen and (max-width: 650px) {
+  .header .footer {
+    display: none; }
+
+  .middle .grid-container {
+    display: grid;
+    grid-template-columns: auto; }
+    .middle .grid-container .grid-item img {
+      width: 300px;
+      height: 300px; } }
+
+/*# sourceMappingURL=input.css.map */
