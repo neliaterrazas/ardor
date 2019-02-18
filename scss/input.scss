@@ -15,8 +15,6 @@ body {
   }
 }
 
-
-
 .middle {
   display: flex;
   justify-content: center;
@@ -30,6 +28,7 @@ body {
       img {
         width: 300px;
         height: 300px;
+        border: 3px solid white;
       }
     }
   }
@@ -74,7 +73,7 @@ body {
   .contact:hover .contact-info {
     display: block;
     p {
-      width: 600px;
+      width: 300px;
     }
   }
   .hours-info {
@@ -83,7 +82,7 @@ body {
   .hours:hover .hours-info {
     display: block;
     p {
-      width: 600px;
+      width: 300px;
     }
   }
 }
@@ -97,6 +96,55 @@ body {
         img {
           width: 500px;
           height: 500px;
+        }
+      }
+    }
+  }
+  .header {
+    .footer {
+      .natural-wine-info {
+        display: none;
+      }
+      .natural-wine:hover .natural-wine-info {
+        display: block;
+        p {
+          width: 300px;
+        }
+      }
+      .mission-statement-info {
+        display: none;
+      }
+      .mission-statement:hover .mission-statement-info {
+        display: block;
+        p {
+          width: 300px;
+        }
+      }
+      .wine-club-info {
+        display: none;
+      }
+      .wine-club:hover .wine-club-info {
+        display: block;
+        p {
+          width: 300px;
+        }
+      }
+      .contact-info {
+        display: none ;
+      }
+      .contact:hover .contact-info {
+        display: block;
+        p {
+          width: 300px;
+        }
+      }
+      .hours-info {
+        display: none;
+      }
+      .hours:hover .hours-info {
+        display: block;
+        p {
+          width: 300px;
         }
       }
     }

@@ -19,7 +19,8 @@ body {
     grid-gap: 30px; }
     .middle .grid-container .grid-item img {
       width: 300px;
-      height: 300px; }
+      height: 300px;
+      border: 3px solid white; }
 
 .footer {
   padding: 40px 40px 40px 40px;
@@ -50,13 +51,13 @@ body {
   .footer .contact:hover .contact-info {
     display: block; }
     .footer .contact:hover .contact-info p {
-      width: 600px; }
+      width: 300px; }
   .footer .hours-info {
     display: none; }
   .footer .hours:hover .hours-info {
     display: block; }
     .footer .hours:hover .hours-info p {
-      width: 600px; }
+      width: 300px; }
 
 @media screen and (max-width: 1000px) {
   .middle .grid-container {
@@ -64,7 +65,38 @@ body {
     grid-template-columns: auto; }
     .middle .grid-container .grid-item img {
       width: 500px;
-      height: 500px; } }
+      height: 500px; }
+
+  .header .footer .natural-wine-info {
+    display: none; }
+  .header .footer .natural-wine:hover .natural-wine-info {
+    display: block; }
+    .header .footer .natural-wine:hover .natural-wine-info p {
+      width: 300px; }
+  .header .footer .mission-statement-info {
+    display: none; }
+  .header .footer .mission-statement:hover .mission-statement-info {
+    display: block; }
+    .header .footer .mission-statement:hover .mission-statement-info p {
+      width: 300px; }
+  .header .footer .wine-club-info {
+    display: none; }
+  .header .footer .wine-club:hover .wine-club-info {
+    display: block; }
+    .header .footer .wine-club:hover .wine-club-info p {
+      width: 300px; }
+  .header .footer .contact-info {
+    display: none; }
+  .header .footer .contact:hover .contact-info {
+    display: block; }
+    .header .footer .contact:hover .contact-info p {
+      width: 300px; }
+  .header .footer .hours-info {
+    display: none; }
+  .header .footer .hours:hover .hours-info {
+    display: block; }
+    .header .footer .hours:hover .hours-info p {
+      width: 300px; } }
 @media screen and (max-width: 650px) {
   .header .footer {
     display: none; }
