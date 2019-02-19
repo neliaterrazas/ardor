@@ -19,8 +19,8 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px 0 20px 0;
-  margin: 40px 2.5% 40px 2.5%;
-  width: 95%; }
+  margin: 40px 10% 40px 10%;
+  width: 80%; }
   .middle .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
