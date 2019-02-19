@@ -15,7 +15,7 @@ body {
     text-align: center; }
 
 .middle {
-  background-color: black;
+  background-color: #FFDBDA;
   display: flex;
   justify-content: center;
   padding: 20px 0 20px 0;
@@ -37,7 +37,7 @@ body {
   flex-direction: row;
   justify-content: space-around; }
   .footer .natural-wine:hover .highlight p {
-    background-color: yellow;
+    background-color: #cfebf9;
     font-size: 50px; }
   .footer .natural-wine-info {
     display: none; }
@@ -46,7 +46,7 @@ body {
     .footer .natural-wine:hover .natural-wine-info p {
       width: 600px; }
   .footer .mission-statement:hover .highlight p {
-    background-color: yellow;
+    background-color: #cfebf9;
     font-size: 50px; }
   .footer .mission-statement-info {
     display: none; }
@@ -55,7 +55,7 @@ body {
     .footer .mission-statement:hover .mission-statement-info p {
       width: 600px; }
   .footer .wine-club:hover .highlight p {
-    background-color: yellow;
+    background-color: #cfebf9;
     font-size: 50px; }
   .footer .wine-club-info {
     display: none; }
@@ -64,7 +64,7 @@ body {
     .footer .wine-club:hover .wine-club-info p {
       width: 600px; }
   .footer .contact:hover .highlight p {
-    background-color: yellow;
+    background-color: #cfebf9;
     font-size: 50px; }
   .footer .contact-info {
     display: none; }
@@ -73,7 +73,7 @@ body {
     .footer .contact:hover .contact-info p {
       width: 300px; }
   .footer .hours:hover .highlight p {
-    background-color: yellow;
+    background-color: #cfebf9;
     font-size: 50px; }
   .footer .hours-info {
     display: none; }
